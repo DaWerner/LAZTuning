@@ -122,7 +122,7 @@ var Brands = []
 
 function readBrands(){
     $.ajax({
-        url: "https://"+ window.location.host +"/Halid_WS/brands.json",
+        url: "https://"+ window.location.host +"/brands.json",
         method: "GET",
         success: function (data, textStatus, jqXHR) {
                      console.log(data);
