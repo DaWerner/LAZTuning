@@ -8,7 +8,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-    <title>ECOSAVE BOOTSTRAP ENVIRONMENT TEMPLATE</title>
+    <title>LAZ Tuning</title>
     <!--  Bootstrap Style -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!--  Font-Awesome Style -->
@@ -22,12 +22,13 @@
     <!--  Custom Style -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="./assets/js/LAZ.js"></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body onload="init()">
     <div id="pre-div">
         <div id="loader">
         </div>
@@ -104,34 +105,32 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 sub-head">
-                    <h2  data-wow-delay="0.3s" class="wow rollIn animated" ><strong>ABOUT </strong></h2>
-                    <p class="sub-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <h2  data-wow-delay="0.3s" class="wow rollIn animated" ><strong>LAZ TUNING NEWS </strong></h2>
+                    <p class="sub-head"> </p>
                 </div>
             </div>
             <div class="row ">
                 <div class="col-lg-4 col-md-4">
-                    <div class="media wow rotateIn animated" data-wow-delay="0.2s">
+                    <div  class="news_header media wow rotateIn animated" data-wow-delay="0.2s">
                         <div class="pull-left">
                             <i class="fa fa-recycle fa-4x  "></i>
                         </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">We Promote Recycling</h3>
+                        <div  class="media-body">
+                            <h3 id="folien" class="media-heading">LAZ Folientechnik</h3>
                             <p >
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
+
                             </p>
 
                         </div>
                     </div>
-                    <div class="media wow rotateIn animated" data-wow-delay="0.3s">
+                    <div  class="news_header media wow rotateIn animated" data-wow-delay="0.3s">
                         <div class="pull-left">
                             <i class="fa fa-history fa-4x  "></i>
                         </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Eco-Friendly Techniques</h3>
+                        <div  class="media-body">
+                            <h3 id="leuchtmittel" class="media-heading">H7 Leuchtmittel</h3>
                             <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
+ 
                             </p>
 
                         </div>
@@ -144,13 +143,13 @@
                         <div class="carousel-inner">
                             <div class="item">
 
-                                <img src="assets/img/w3images/news1.jpg" class="img-thumbnail" alt="">
+                                <img src="assets/img/w3images/news1.jpg" class="newsImage img-thumbnail" alt="">
                             </div>
                             <div class="item">
-                                <img src="assets/img/w3images/news2.jpg" class="img-thumbnail" alt="">
+                                <img src="assets/img/w3images/news2.jpg" class="newsImage img-thumbnail" alt="">
                             </div>
                             <div class="item active">
-                                <img src="assets/img/w3images/new3.jpg" class="img-thumbnail" alt="">
+                                <img src="assets/img/w3images/new3.jpg" class="newsImage img-thumbnail" alt="">
                             </div>
                         </div>
                         <!--INDICATORS-->
@@ -165,28 +164,26 @@
 
                 <div class="col-lg-4 col-md-4">
 
-                    <div class="media wow rotateIn animated" data-wow-delay="0.4s">
+                    <div  class="news_header media wow rotateIn animated" data-wow-delay="0.4s">
                         <div class="pull-left">
                             <i class="fa fa-star-o fa-4x  "></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Waste Reduction</h3>
+                            <h3 id="beschl" class="media-heading">Beschleuningungs-messung</h3>
                             <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
+
                             </p>
 
                         </div>
                     </div>
-                    <div class="media wow rotateIn animated" data-wow-delay="0.5s">
+                    <div  class="news_header media wow rotateIn animated" data-wow-delay="0.5s">
                         <div class="pull-left">
                             <i class="fa fa-life-ring fa-4x  "></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Resource Utilization</h3>
+                            <h3 id="angel_eyes" class="media-heading">Angel Eyes</h3>
                             <p>
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
+
                             </p>
 
                         </div>
@@ -197,24 +194,9 @@
             <div class="row pad-top-botm wow flipInX animated" data-wow-delay="0.7s">
                 <div class="col-lg-8 col-md-8 col-sm-8 " >
 
-                    <h3><strong>What is our profile ?</strong></h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-
+                    <h3><strong id="newsHeader">What is our profile ?</strong></h3>
+                    <p id="newsText">
+´
                     </p>
                 </div>
 
@@ -423,8 +405,8 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>HOW YOU CAN HELP ?</strong></h2>
-                        <p class="sub-head">Checkout this vedio , which will let you know how you can help us to save the earth and let the earth live long peacefully. </p>
+                        <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>Testfahrten</strong></h2>
+                        <p class="sub-head"> </p>
                     </div>
                 </div>
                 <div class="row ">
@@ -440,23 +422,9 @@
                                 <i class="fa fa-star-o fa-4x  "></i>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">Watch This Vedio</h3>
+                                <h3 class="media-heading">BMW F10 520d</h3>
                                 <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
-                                </p>
-
-                            </div>
-                        </div>
-                        <div class="media wow rotateIn animated" data-wow-delay="0.6s">
-                            <div class="pull-left">
-                                <i class="fa fa-history fa-4x  "></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Donate Some Money </h3>
-                                <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
+                                    Nach unserer Optimierung haben wir ein kleines Video gedreht um Ihnen einen kleinen Vorgeschmack zu geben was alles in Ihrem Fahrzeug steckt. Zudem haben wir bei vergleichbarer Fahrweise zur Serie einen geringeren Spritverbrauch.
                                 </p>
 
                             </div>
@@ -467,7 +435,7 @@
                 <div class="row ">
 
                     <div class="col-lg-6 col-lg-offset-1  col-md-6 col-md-offset-1">
-                        <iframe src="https://www.youtube.com/embed/2lBDlCqtsyc" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
+                        <iframe src="https://www.youtube.com/embed/zU7e6_NrUsc" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
                     </div>
 
                     <div class="col-lg-4 col-md-4" style="padding-top: 50px;">
@@ -477,34 +445,21 @@
                                 <i class="fa fa-star-o fa-4x  "></i>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">Watch This Vedio</h3>
+                                <h3 class="media-heading">Audi A6 2 0 Diesel Serie</h3>
                                 <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
+                            Nach unserer Optimierung haben wir ein kleines Video gedreht um Ihnen einen kleinen Vorgeschmack zu geben was alles in Ihrem Fahrzeug steckt. Zudem haben wir bei vergleichbarer Fahrweise zur Serie einen geringeren Spritverbrauch.
                                 </p>
 
                             </div>
                         </div>
-                        <div class="media wow rotateIn animated" data-wow-delay="0.6s">
-                            <div class="pull-left">
-                                <i class="fa fa-history fa-4x  "></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Donate Some Money </h3>
-                                <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
-                                </p>
 
-                            </div>
-                        </div>
 
                     </div>
                 </div>
                 <div class="row ">
 
                     <div class="col-lg-6 col-lg-offset-1  col-md-6 col-md-offset-1">
-                        <iframe src="https://www.youtube.com/embed/2lBDlCqtsyc" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
+                        <iframe src="https://www.youtube.com/embed/Vl-udVsfgVY" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
                     </div>
 
                     <div class="col-lg-4 col-md-4" style="padding-top: 50px;">
@@ -514,7 +469,7 @@
                                 <i class="fa fa-star-o fa-4x  "></i>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">Watch This Vedio</h3>
+                                <h3 class="media-heading">BMW F10 525d Kennfeld Optimierung</h3>
                                 <p>
                                     Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. 
@@ -522,20 +477,6 @@
 
                             </div>
                         </div>
-                        <div class="media wow rotateIn animated" data-wow-delay="0.6s">
-                            <div class="pull-left">
-                                <i class="fa fa-history fa-4x  "></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Donate Some Money </h3>
-                                <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. 
-                                </p>
-
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>

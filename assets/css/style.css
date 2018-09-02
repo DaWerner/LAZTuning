@@ -10,8 +10,20 @@
     ========================================================  */
 
 
+.navbar-nav li:hover{
+    border-bottom: 2px solid red;
+}
+
 .mainLogo{
     margin-top: 75px;
+}
+
+.news_header{
+    cursor: pointer;
+}
+
+.newsImage{
+    width: 100% !important;
 }
 
 /*=====================================
@@ -331,7 +343,7 @@ background-size: cover;
 
 
 .vedio-style {
-border: 5px solid #159238;
+border: 5px solid #bf0019;
 width: 100%;
 min-height: 300px;
 margin-top: 20px;
