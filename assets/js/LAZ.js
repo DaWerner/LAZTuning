@@ -25,3 +25,15 @@ document.querySelectorAll(".news_header").forEach(n=>{
    }); 
 });
 }
+
+function setBrandListener(){
+    document.querySelectorAll("#brands img").forEach(x=>{
+        x.addEventListener("click", function(e){
+            let val = e.target.src.split("/")[e.target.src.split("/").length-1];
+            console.log(val)
+            document.querySelector("#brandLogo img").src = e.target.src;
+            document.querySelector("#select").style.display = "block";
+            document.querySelector("#brands").style.display = "none";
+        })
+    })
+}

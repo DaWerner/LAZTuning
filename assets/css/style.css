@@ -14,6 +14,40 @@
     border-bottom: 2px solid red;
 }
 
+.selectTable{
+    min-height: 300px;
+    background-color: #ff000052;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#brands img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.selectTable .select_header{
+    width: 100%;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    background-color: #770000;
+    line-height: 2;
+    text-align: center;
+}
+
+.selectTable .option{
+    color: white;
+    border-bottom: 1px dotted white;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
 .mainLogo{
     margin-top: 75px;
 }
@@ -238,10 +272,12 @@ background: url(../img/w3images/parallax2.jpg) no-repeat center center;
 padding: 0;
 -webkit-background-size: cover;
 background-size: cover;
+height: 585px;
 color:#fff;
 }
  .donars-section .overlay {
-              background: url(../img/overlays/02.png);     
+    background: #0000005c;
+    height: 100%; 
     }
 .slide-custom {
     min-height:200px;
