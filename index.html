@@ -1,275 +1,613 @@
-<!DOCTYPE html>
-<html>
-    <title>W3.CSS Template</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/site.css">
-    <script src="./js/site.js"></script>
-    <body>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>ECOSAVE BOOTSTRAP ENVIRONMENT TEMPLATE</title>
+    <!--  Bootstrap Style -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!--  Font-Awesome Style -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--  Animation Style -->
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <!--  Pretty Photo Style -->
+    <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+    <!--  Google Font Style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!--  Custom Style -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="pre-div">
+        <div id="loader">
+        </div>
+    </div>
+    <!--/. PRELOADER END -->
+    <div class="navbar navbar-default navbar-fixed-top move-me ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-        <!-- Navbar (sit on top) -->
-        <div class="w3-top">
-            <div class="w3-bar" id="myNavbar">
-                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-                    <i class="fa fa-bars"></i>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/w3images/logo_trans.png" class="navbar-brand-logo " alt="" />
+
                 </a>
-                <a href="#home" class="w3-bar-item w3-button is-active">HOME</a>
-                <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> MotorTuning</a>
-                <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Lichttechnik</a>
-                <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Kfz Service</a>
-                <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Kontakt</a>
-                <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Kfz Service</a>
+            </div>
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li >
+                        <a href="#home">HOME 
+
+                        </a>
+
+                    </li>
+                    <li >
+                        <a href="#about">ABOUT
+
+                        </a>
+
+                    </li>
+
+                    <li >
+                        <a href="#port-folio">GALLERY
+                        </a>
+
+                    </li>
+
+                    <li >
+                        <a href="#help">HOW TO HELP ?
+                        </a>
+
+                    </li>
+
+                    <li >
+                        <a href="#contact">CONTACT 
+                        </a>
+
+                    </li>
+                </ul>
             </div>
 
-            <!-- Navbar on small screens -->
-            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-                <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-                <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-                <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-                <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+    <!--./ NAV BAR END -->
+    <div id="home" >
+        <div class="overlay">
+            <div class="container">
+                <div class="row ">
+                    <img class="mainLogo" src="./assets/img/w3images/logo_trans.png">
+                </div>
+
             </div>
+
         </div>
 
-        <!-- First Parallax Image with Logo Text -->
-        <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-            <div class="w3-display-middle" style="white-space:nowrap;">
-                <img src="./w3images/logo_trans.png" class="main_logo w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity"/>
-            </div>
-        </div>
 
-        <!-- Container (About Section) -->
-        <div class="w3-content w3-container w3-padding-64" id="about">
-            <h3 class="w3-center">LAZ Tuning News</h3>
-            <p class="w3-center"><em>Test</em></p>
-            <p>
-
-            </p>
-            <div id="news" class="w3-row">
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div onclick="fadeAway('LAZ_Folientechnik')" class="mySlides fade" style="display: block">
-    <div class="numbertext">1 / 4</div>
-    <img src="./w3images/news1.jpg" style="width:100%">
-    <div class="text">LAZ Folientechnik</div>
-  </div>
-
-  <div onclick="fadeAway('H7_Leuchtmittel')" class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img src="./w3images/news2.jpg" style="width:100%">
-    <div class="text">H7 Leuchtmittel</div>
-  </div>
-
-  <div onclick="fadeAway('Beschleunigungsmessung')" class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img src="./w3images/new3.jpg" style="width:100%">
-    <div class="text">Beschleuningungs-messung</div>
-  </div>
-  <div onclick="fadeAway('Angel_Eyes')" class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img src="./w3images/news4.jpg" style="width:100%">
-    <div class="text">Angel Eyes</div>
-  </div>
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-
-                <div class="active" id="LAZ_Folientechnik">
-                <div class="w3-col m6 w3-center w3-padding-large">
-                    <img src="./w3images/news1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Folien Technik" width="500" height="333">
-                </div>
-                    
-                <!-- Hide this text on small devices -->
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
-                    <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                </div>
-                <div class="inactive" id="H7_Leuchtmittel">
-                <div class="w3-col m6 w3-center w3-padding-large">
-                    <img src="./w3images/news2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Folien Technik" width="500" height="333">
-                </div>
-
-                <!-- Hide this text on small devices -->
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
-                    <p>Test test test test test</p>
-                </div>
-                </div>
-                <div class="inactive" id="Beschleunigungsmessung">
-                <div class="w3-col m6 w3-center w3-padding-large">
-                    <img src="./w3images/new3.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Folien Technik" width="500" height="333">
-                </div>
-
-                <!-- Hide this text on small devices -->
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
-                    <p>Ab jetzt bieten wir auch Beschleunigungsmessungen an. Egal ob 0-100, 60-120, viertelmeile oder individuelle Messung. Bei unseren Leistungssteigerungen bieten wir den Service als Vor- und Nachmessung an. Unser System gleicht die Sateliten 6mal pro Sekunde ab und gewährt somit ein exaktes Ergebnis.</p>
-                </div>
-                </div>
-                <div class="inactive" id="Angel_Eyes">
-                <div class="w3-col m6 w3-center w3-padding-large">
-                    <img src="./w3images/news4.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Folien Technik" width="500" height="333">
-                </div>
-
-                <!-- Hide this text on small devices -->
-                <div class="w3-col m6 w3-hide-small w3-padding-large">
-                    <p>Wir bieten Lichttechnik für Ihre Angel Eyes an. Damit das gelblich Leuchtende in ein helles weiss erscheint. Bessere Lichtausbeute und längere Lebensdauer. Das Erscheinunsbild mit hell weissen Angel Eyes ist einfach genial. Auf Wunsch haben wir auch Folie zum abdunkeln der Blinker für ein perfektes finish.</p>    
-                </div>
+    </div>
+    <!--./ HOME SECTION END -->
+    <div id="about" >
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 sub-head">
+                    <h2  data-wow-delay="0.3s" class="wow rollIn animated" ><strong>ABOUT </strong></h2>
+                    <p class="sub-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 </div>
             </div>
-        </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-4">
+                    <div class="media wow rotateIn animated" data-wow-delay="0.2s">
+                        <div class="pull-left">
+                            <i class="fa fa-recycle fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">We Promote Recycling</h3>
+                            <p >
+                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                            </p>
 
-        <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">14+</span><br>
-                Partners
-            </div>
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">55+</span><br>
-                Projects Done
-            </div>
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">89+</span><br>
-                Happy Clients
-            </div>
-            <div class="w3-quarter w3-section">
-                <span class="w3-xlarge">150+</span><br>
-                Meetings
-            </div>
-        </div>
-
-        <!-- Second Parallax Image with Portfolio Text -->
-        <div class="bgimg-2 w3-display-container w3-opacity-min">
-            <div class="w3-display-middle">
-                <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-            </div>
-        </div>
-
-        <!-- Container (Portfolio Section) -->
-        <div class="w3-content w3-container w3-padding-64" id="portfolio">
-            <h3 class="w3-center">MY WORK</h3>
-            <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
-            <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-            <div class="w3-row-padding w3-center">
-                <div class="w3-col m3">
-                    <img src="./w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-                </div>
-
-                <div class="w3-col m3">
-                    <img src="./w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-                </div>
-
-                <div class="w3-col m3">
-                    <img src="./w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-                </div>
-
-                <div class="w3-col m3">
-                    <img src="./w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-                </div>
-            </div>
-
-            <div class="w3-row-padding w3-center w3-section">
-                <div class="w3-col m3">
-                    <img src="./w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-                </div>
-
-                <div class="w3-col m3">
-                    <img src="./w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-                </div>
-
-                <div class="w3-col m3">
-                    <img src="./w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-                </div>
-
-                <div class="w3-col m3">
-                    <img src="./w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-                </div>
-                <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-            </div>
-        </div>
-
-        <!-- Modal for full size images on click-->
-        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display = 'none'">
-            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                <img id="img01" class="w3-image">
-                <p id="caption" class="w3-opacity w3-large"></p>
-            </div>
-        </div>
-
-        <!-- Third Parallax Image with Portfolio Text -->
-        <div class="bgimg-3 w3-display-container w3-opacity-min">
-            <div class="w3-display-middle">
-                <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-            </div>
-        </div>
-
-        <!-- Container (Contact Section) -->
-        <div class="w3-content w3-container w3-padding-64" id="contact">
-            <h3 class="w3-center">WHERE I WORK</h3>
-            <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-            <div class="w3-row w3-padding-32 w3-section">
-                <div class="w3-col m4 w3-container">
-                    <!-- Add Google Maps -->
-                    <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-                </div>
-                <div class="w3-col m8 w3-panel">
-                    <div class="w3-large w3-margin-bottom">
-                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+                        </div>
                     </div>
-                    <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-                    <form action="/action_page.php" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                    <div class="media wow rotateIn animated" data-wow-delay="0.3s">
+                        <div class="pull-left">
+                            <i class="fa fa-history fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Eco-Friendly Techniques</h3>
+                            <p>
+                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-4 wow bounceInDown animated" style="padding: 10px;" data-wow-delay="0.6s"   >
+                    <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="item">
+
+                                <img src="assets/img/w3images/news1.jpg" class="img-thumbnail" alt="">
                             </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            <div class="item">
+                                <img src="assets/img/w3images/news2.jpg" class="img-thumbnail" alt="">
+                            </div>
+                            <div class="item active">
+                                <img src="assets/img/w3images/new3.jpg" class="img-thumbnail" alt="">
                             </div>
                         </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                        <button class="w3-button w3-black w3-right w3-section" type="submit">
-                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                        </button>
-                    </form>
+                        <!--INDICATORS-->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-slider" data-slide-to="0" class=""></li>
+                            <li data-target="#carousel-slider" data-slide-to="1" class=""></li>
+                            <li data-target="#carousel-slider" data-slide-to="2" class="active"></li>
+                        </ol>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+
+                    <div class="media wow rotateIn animated" data-wow-delay="0.4s">
+                        <div class="pull-left">
+                            <i class="fa fa-star-o fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Waste Reduction</h3>
+                            <p>
+                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="media wow rotateIn animated" data-wow-delay="0.5s">
+                        <div class="pull-left">
+                            <i class="fa fa-life-ring fa-4x  "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Resource Utilization</h3>
+                            <p>
+                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pad-top-botm wow flipInX animated" data-wow-delay="0.7s">
+                <div class="col-lg-8 col-md-8 col-sm-8 " >
+
+                    <h3><strong>What is our profile ?</strong></h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 text-center" >
+                    <i class="fa fa-lightbulb-o big-icon "></i>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--./ ABOUT SECTION END -->
+    <div class="donars-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-12 ">
+                        <div id="testimonials" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonials" data-slide-to="0" class=""></li>
+                                <li data-target="#testimonials" data-slide-to="1" class=""></li>
+                                <li data-target="#testimonials" data-slide-to="2" class="active"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+
+                                            <h4><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. <i class="fa fa-quote-right"></i></h4>
+                                            <div class="user-img pull-right">
+                                                <img src="assets/img/user2.png" alt="" class="img-circle image-responsive">
+                                            </div>
+                                            <h5 class="pull-right"><strong class="c-black">Lorem Dolor</strong></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><i class="fa fa-quote-left"></i>Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. <i class="fa fa-quote-right"></i></h4>
+                                            <div class="user-img pull-right">
+                                                <img src="assets/img/user.gif" alt="" class="img-circle image-responsive">
+                                            </div>
+                                            <h5 class="pull-right"><strong class="c-black">Faucibus luctus</strong></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item active">
+                                    <div class="container center">
+                                        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 slide-custom">
+                                            <h4><i class="fa fa-quote-left"></i>Sed ultricies, libero ut adipiscing fringilla, ante elit luctus lorem, a egestas dui metus a arcu condimentum. <i class="fa fa-quote-right"></i></h4>
+                                            <div class="user-img pull-right">
+                                                <img src="assets/img/user2.png" alt="" class="img-circle image-responsive">
+                                            </div>
+                                            <h5 class="pull-right"><strong class="c-black">Sed ultricies</strong></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--./ DONARS TESTIMONIALS END -->
+    <div id="port-folio" class="pad-top-botm" >
+        <div class="container">
+            <div class="row text-center ">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>GALLERY </strong></h2>
+                    <p class="sub-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.4s">
+
+
+                        <img src="assets/img/portfolio/g.jpg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview  " title="Image Title Here" href="assets/img/portfolio/g.jpg"><i class="fa fa-search-plus fa-5x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.5s">
+
+
+                        <img src="assets/img/portfolio/b.jpg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview " title="Image Title Here" href="assets/img/portfolio/b.jpg"><i class="fa fa-search-plus fa-5x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.6s">
+
+
+                        <img src="assets/img/portfolio/c.png" class="img-responsive " alt="" />
+                        <div class="overlay">
+                          <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview " title="Image Title Here" href="assets/img/portfolio/c.png"><i class="fa fa-search-plus fa-5x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row " style="padding-top: 50px;">
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.7s">
+
+
+                        <img src="assets/img/portfolio/d.jpg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                           <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview  " title="Image Title Here" href="assets/img/portfolio/d.jpg"><i class="fa fa-search-plus fa-5x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.8s">
+
+
+                        <img src="assets/img/portfolio/e.jpg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                            <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview " title="Image Title Here" href="assets/img/portfolio/e.jpg"><i class="fa fa-search-plus fa-5x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+                    <div class="portfolio-item wow rotateIn animated" data-wow-delay="0.9s">
+
+
+                        <img src="assets/img/portfolio/h.jpg" class="img-responsive " alt="" />
+                        <div class="overlay">
+                          <p>
+                                <span>
+                                Image Orinagal Size: 750x500
+                                </span>
+                               
+                                PROJECT TITLE HERE
+                            </p>
+                            <a class="preview " title="Image Title Here" href="assets/img/portfolio/h.jpg"><i class="fa fa-search-plus fa-5x"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--./ GALLERY/PORTFOLIO SECTION END -->
+    <div id="help" >
+        <div class="overlay">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                        <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>HOW YOU CAN HELP ?</strong></h2>
+                        <p class="sub-head">Checkout this vedio , which will let you know how you can help us to save the earth and let the earth live long peacefully. </p>
+                    </div>
+                </div>
+                <div class="row ">
+
+                    <div class="col-lg-6 col-lg-offset-1  col-md-6 col-md-offset-1">
+                        <iframe src="https://www.youtube.com/embed/2lBDlCqtsyc" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style="padding-top: 50px;">
+
+                        <div class="media wow rotateIn animated" data-wow-delay="0.5s">
+                            <div class="pull-left">
+                                <i class="fa fa-star-o fa-4x  "></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Watch This Vedio</h3>
+                                <p>
+                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="media wow rotateIn animated" data-wow-delay="0.6s">
+                            <div class="pull-left">
+                                <i class="fa fa-history fa-4x  "></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Donate Some Money </h3>
+                                <p>
+                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row ">
+
+                    <div class="col-lg-6 col-lg-offset-1  col-md-6 col-md-offset-1">
+                        <iframe src="https://www.youtube.com/embed/2lBDlCqtsyc" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style="padding-top: 50px;">
+
+                        <div class="media wow rotateIn animated" data-wow-delay="0.5s">
+                            <div class="pull-left">
+                                <i class="fa fa-star-o fa-4x  "></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Watch This Vedio</h3>
+                                <p>
+                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="media wow rotateIn animated" data-wow-delay="0.6s">
+                            <div class="pull-left">
+                                <i class="fa fa-history fa-4x  "></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Donate Some Money </h3>
+                                <p>
+                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row ">
+
+                    <div class="col-lg-6 col-lg-offset-1  col-md-6 col-md-offset-1">
+                        <iframe src="https://www.youtube.com/embed/2lBDlCqtsyc" class="vedio-style wow rotateIn animated" data-wow-delay="0.4s"></iframe>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4" style="padding-top: 50px;">
+
+                        <div class="media wow rotateIn animated" data-wow-delay="0.5s">
+                            <div class="pull-left">
+                                <i class="fa fa-star-o fa-4x  "></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Watch This Vedio</h3>
+                                <p>
+                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="media wow rotateIn animated" data-wow-delay="0.6s">
+                            <div class="pull-left">
+                                <i class="fa fa-history fa-4x  "></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Donate Some Money </h3>
+                                <p>
+                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
+                                Aenean faucibus luctus enim. 
+                                </p>
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Footer -->
-        <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-            <div class="w3-xlarge w3-section">
-                <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                <i class="fa fa-instagram w3-hover-opacity"></i>
-                <i class="fa fa-snapchat w3-hover-opacity"></i>
-                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-                <i class="fa fa-twitter w3-hover-opacity"></i>
-                <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <!--./ HELP SECTION END -->
+    <div id="contact" >
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <h2 data-wow-delay="0.3s" class="wow rollIn animated"><strong>CONTACT US </strong></h2>
+                    <p class="sub-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                    <p class="sub-head  wow rotateIn animated" data-wow-delay="0.4s"><strong>ADDRESS :</strong> 2234/908, Newyork City , USA - 002309</p>
+                </div>
             </div>
-            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-        </footer>
+            <div class="row  text-center wow rotateIn animated" data-wow-delay="0.4s">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                 <a href="#">   <img src="assets/img/Social/facebook.png" alt="" /></a>
+                  <a href="#">   <img src="assets/img/Social/google-plus.png" alt="" /></a>
+                  <a href="#">   <img src="assets/img/Social/twitter.png" alt="" /></a>
+                    </div>
+                </div>
+            <div class="row pad-top-botm">
+                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control wow rotateIn animated" data-wow-delay="0.5s" required="required" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control wow rotateIn animated" required="required" data-wow-delay="0.6s" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message"  required="required" data-wow-delay="0.7s" class="wow rotateIn animated form-control" style="min-height: 150px;" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-block btn-lg wow rotateIn animated " data-wow-delay="0.8s">SUBMIT REQUEST</button>
+                        </div>
 
-        <!-- Add Google Maps -->
-        <script>
+                    </form>
+                </div>
 
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-        <!--
-        To use this code on your website, get a free API key from Google.
-        Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
-        -->
+            </div>
+            
+        </div>
+    </div>
+    <!--./ CONTACT SECTION END -->
+    <div id="footser-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                   &copy; 2014 yourdomian.com | by <a href="http://www.binarytheme.com/" style="color:#fff;" target="_blank" >binarytheme.com</a>
+                    
+                </div>
+            </div>
 
-    </body>
+        </div>
+    </div>
+    <!--./ FOOTER SECTION END -->
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+     <!--  WOW Script -->
+    <script src="assets/js/wow.min.js"></script>
+    <!--  Scrolling Script -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  PrettyPhoto Script -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <!--  Custom Scripts -->
+    <script src="assets/js/custom.js"></script>
+   
+</body>
 </html>
