@@ -122,7 +122,7 @@ var Brands = []
 
 function readBrands(){
     $.ajax({
-        url: "https://"+ window.location.host +"/brands.json",
+        url: "https://"+ window.location.host +"/LAZTuning/brands.json",
         method: "GET",
         success: function (data, textStatus, jqXHR) {
                      console.log(data);
