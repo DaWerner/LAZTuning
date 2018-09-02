@@ -34,6 +34,99 @@ function setBrandListener(){
             document.querySelector("#brandLogo img").src = e.target.src;
             document.querySelector("#select").style.display = "block";
             document.querySelector("#brands").style.display = "none";
+            showBrand(val.replace(".png", ""))
         })
+    })
+}
+
+String.prototype.replaceAll = function(toRepl, replacement){
+    return this.split(toRepl).join(replacement);
+}
+
+var current = {}
+var curModel = "";
+var curBaujahr = "";
+var curMotor = "";
+
+function showBrand(wanted){
+    for(var i =0; i < Brands.length; i++){
+        let brand =  Brands[i].brand.toLowerCase().replaceAll(" ", "_");
+        if(brand === wanted){ current = Brands[i]; break;}
+    }
+    for(var j = 0; j < current.models.length; j++){
+        let model = current.models[j];
+        let modelId = model.name.replaceAll(" ", "_");
+        $("#models .select_header").after("<div id='"+modelId+"' class='option'>"+ model.name + "</div>");
+    }
+    document.querySelectorAll("#models .option").forEach(m=>{
+            m.addEventListener("click", function(e){
+                if(document.querySelector("#motoren .option"))
+                    document.querySelectorAll("#motoren .option").forEach(x=>$(x).remove());
+                curModel = e.target.id;
+                showBuild(e.target.id);
+            })
+        })
+}
+
+function showMotors( baujahr){
+    let model1 = null;
+    for(var j = 0; j < current.models.length; j++){
+        if(curModel.name === current.models[j].name){
+            model1 = current.models[j];
+            break;
+        }
+    }
+    let bj = null;
+    let bjIndex = parseInt(baujahr.replace("bj", ""));
+    for(var i = 0; i < model1.baujahre.length; i++){
+        if(bjIndex === i) {bj = model1.baujahre[i]; break;}
+    }
+    if(document.querySelector("#motoren .option"))
+        document.querySelectorAll("#motoren .option").forEach(x=>$(x).remove());
+    for(var k = 0; k < bj.motoren.benzin.length; k++){
+        let val = bj.motoren.benzin[k];
+        let mID = (val.bezeichnung + "__" + val.leistung + "__Benzin").replaceAll(" ", "_");
+        $("#motoren .select_header").after("<div class='option' id='" + mID+ "'>"+mID.replaceAll("__", "&nbsp&nbsp&nbsp").replaceAll("_", " ")+"</div>");
+    }
+    for(var k = 0; k < bj.motoren.diesel.length; k++){
+        let val = bj.motoren.diesel[k];
+        let mID = (val.bezeichnung + "__" + val.leistung + "__Diesel").replaceAll(" ", "_");
+        $("#motoren .select_header").after("<div class='option' id='" + mID+ "'>"+mID.replaceAll("__", "&nbsp&nbsp&nbsp").replaceAll("_", " ")+"</div>");
+    }
+    
+}
+
+function showBuild(model){
+    let model1 = null;
+    document.querySelectorAll("#baujahre .option").forEach(x=>$(x).remove());
+    for(var j = 0; j < current.models.length; j++){
+        if(model === current.models[j].name){
+            model1 = current.models[j];
+            break;
+        }
+    }
+    curModel = model1;
+    for(var i = 0; i < model1.baujahre.length; i++){
+        let bjID = model1.baujahre[i].jahr.replaceAll(" ", "_");
+        if(bjID === "All") continue;
+        $("#baujahre .select_header").after("<div id='bj"+i+"' class='option'>"+ model1.baujahre[i].jahr + "</div>")
+        document.querySelector("#bj"+i).addEventListener("click", function(e){
+                curBaujahr = e.target.id;
+                showMotors(e.target.id);
+        })
+    }
+    
+}
+
+var Brands = []
+
+function readBrands(){
+    $.ajax({
+        url: "http://"+ window.location.host +"/Halid_WS/brands.json",
+        method: "GET",
+        success: function (data, textStatus, jqXHR) {
+                     console.log(data);
+                     Brands = data;
+                 }
     })
 }
