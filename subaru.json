@@ -1,0 +1,532 @@
+{
+    "brand": "Subaru",
+    "models": [
+        {
+            "name": "BRZ",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "2.0 i",
+                                "leistung": "200 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "200 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "220 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "530",
+                                    "model": "BRZ",
+                                    "dorpmlimit": "",
+                                    "otorque": "205 Nm",
+                                    "s1power": "215 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "430",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2012 -> 2016",
+                                    "s1dpower": "+ 15 Ps",
+                                    "s2dpower": "+ 25 Ps",
+                                    "id": 4560,
+                                    "s1dtorque": "+ 15 Nm",
+                                    "s2power": "225 Ps",
+                                    "s4torque": "",
+                                    "motortype": "2.0 i",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 25 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 4%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "230 Nm",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2012 -> 2016"
+                }
+            ]
+        },
+        {
+            "name": "Forester",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 D Boxer",
+                                "leistung": "147 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "147 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "630",
+                                    "model": "Forester",
+                                    "dorpmlimit": "",
+                                    "otorque": "350 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "530",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2008 -> 2016",
+                                    "s1dpower": "+ 33 Ps",
+                                    "s2dpower": "",
+                                    "id": 4561,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 D Boxer",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 7%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "2.0 D Boxer",
+                                "leistung": "150 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "150 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "630",
+                                    "model": "Forester",
+                                    "dorpmlimit": "",
+                                    "otorque": "350 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "530",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2008 -> 2016",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "+ 50 Ps",
+                                    "id": 4562,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "200 Ps",
+                                    "s4torque": "",
+                                    "motortype": "2.0 D Boxer",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 90 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 7%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "440 Nm",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2008 -> 2016"
+                }
+            ]
+        },
+        {
+            "name": "Impreza",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 Boxer D",
+                                "leistung": "150 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "150 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "630",
+                                    "model": "Impreza",
+                                    "dorpmlimit": "",
+                                    "otorque": "350 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "530",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2008 -> ...",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "+ 40 Ps",
+                                    "id": 4563,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "190 Ps",
+                                    "s4torque": "",
+                                    "motortype": "2.0 Boxer D",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 70 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 7%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "420 Nm",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2008 -> ..."
+                }
+            ]
+        },
+        {
+            "name": "Legacy",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 D Boxer",
+                                "leistung": "150 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "150 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "630",
+                                    "model": "Legacy",
+                                    "dorpmlimit": "",
+                                    "otorque": "350 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "530",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2008 -> ...",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 4564,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 D Boxer",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 7%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2008 -> ..."
+                }
+            ]
+        },
+        {
+            "name": "Levorg",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "1.6 Turbo",
+                                "leistung": "170 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "170 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "300 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "590",
+                                    "model": "Levorg",
+                                    "dorpmlimit": "",
+                                    "otorque": "250 Nm",
+                                    "s1power": "190 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "490",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2015 -> ...",
+                                    "s1dpower": "+ 20 Ps",
+                                    "s2dpower": "",
+                                    "id": 4565,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "1.6 Turbo",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 10%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2015 -> ..."
+                }
+            ]
+        },
+        {
+            "name": "Outback",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 D Boxer",
+                                "leistung": "150 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "150 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "630",
+                                    "model": "Outback",
+                                    "dorpmlimit": "",
+                                    "otorque": "350 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "530",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "+ 50 Ps",
+                                    "id": 4566,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "200 Ps",
+                                    "s4torque": "",
+                                    "motortype": "2.0 D Boxer",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 90 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 7%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "440 Nm",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "Trezia",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "1.4 D",
+                                "leistung": "90 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "90 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "260 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "460",
+                                    "model": "Trezia",
+                                    "dorpmlimit": "",
+                                    "otorque": "205 Nm",
+                                    "s1power": "115 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "360",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2011 -> …",
+                                    "s1dpower": "+ 25 Ps",
+                                    "s2dpower": "",
+                                    "id": 4567,
+                                    "s1dtorque": "+ 55 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "1.4 D",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 13%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2011 -> …"
+                }
+            ]
+        },
+        {
+            "name": "XV",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 D Boxer",
+                                "leistung": "147 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "147 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "630",
+                                    "model": "XV",
+                                    "dorpmlimit": "",
+                                    "otorque": "350 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "530",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 33 Ps",
+                                    "s2dpower": "+ 53 Ps",
+                                    "id": 4568,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "200 Ps",
+                                    "s4torque": "",
+                                    "motortype": "2.0 D Boxer",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 90 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 7%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "440 Nm",
+                                    "brand": "Subaru",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "All"
+                }
+            ]
+        }
+    ]
+}

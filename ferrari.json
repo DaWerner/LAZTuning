@@ -1,0 +1,1427 @@
+{
+    "brand": "Ferrari",
+    "models": [
+        {
+            "name": "456",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "5.5 V12",
+                                "leistung": "428 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "428 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "510 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1290",
+                                    "model": "456",
+                                    "dorpmlimit": "",
+                                    "otorque": "490 Nm",
+                                    "s1power": "435 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1190",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 7 Ps",
+                                    "s2dpower": "",
+                                    "id": 1500,
+                                    "s1dtorque": "+ 20 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "5.5 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "348 GTS, GTB, Spider",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.4 V8",
+                                "leistung": "320 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "320 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "350 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1290",
+                                    "model": "348 GTS, GTB, Spider",
+                                    "dorpmlimit": "",
+                                    "otorque": "325 Nm",
+                                    "s1power": "345 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1190",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 25 Ps",
+                                    "s2dpower": "",
+                                    "id": 1501,
+                                    "s1dtorque": "+ 25 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.4 V8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 4%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "355 GTS, GTB, Spider",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.5 v8",
+                                "leistung": "380 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "380 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "388 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1290",
+                                    "model": "355 GTS, GTB, Spider",
+                                    "dorpmlimit": "",
+                                    "otorque": "360 Nm",
+                                    "s1power": "400 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1190",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 20 Ps",
+                                    "s2dpower": "",
+                                    "id": 1502,
+                                    "s1dtorque": "+ 28 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.5 v8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 4%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "360 Modena, Spider",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.6 V8",
+                                "leistung": "401 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "401 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1290",
+                                    "model": "360 Modena, Spider",
+                                    "dorpmlimit": "",
+                                    "otorque": "375 Nm",
+                                    "s1power": "424 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1190",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "1999 -> 2004",
+                                    "s1dpower": "+ 23 Ps",
+                                    "s2dpower": "",
+                                    "id": 1503,
+                                    "s1dtorque": "+ 25 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.6 V8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 3%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "1999 -> 2004"
+                }
+            ]
+        },
+        {
+            "name": "458 Italia",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "4.5 V8",
+                                "leistung": "570 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "570 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "562 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "458 Italia",
+                                    "dorpmlimit": "",
+                                    "otorque": "540 Nm",
+                                    "s1power": "591 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 21 Ps",
+                                    "s2dpower": "+ 40 Ps",
+                                    "id": 1504,
+                                    "s1dtorque": "+ 22 Nm",
+                                    "s2power": "610 Ps",
+                                    "s4torque": "",
+                                    "motortype": "4.5 V8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 50 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "590 Nm",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "4.5 V8 Speciale",
+                                "leistung": "605 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "605 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "580 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "458 Italia",
+                                    "dorpmlimit": "",
+                                    "otorque": "540 Nm",
+                                    "s1power": "625 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 20 Ps",
+                                    "s2dpower": "",
+                                    "id": 1505,
+                                    "s1dtorque": "+ 40 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "4.5 V8 Speciale",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 4%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "Challenge V8 (Track Only)",
+                                "leistung": "570 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "570 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "590 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "Preis auf Anfrage",
+                                    "model": "458 Italia",
+                                    "dorpmlimit": "",
+                                    "otorque": "540 Nm",
+                                    "s1power": "610 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "Preis auf Anfrage",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 40 Ps",
+                                    "s2dpower": "",
+                                    "id": 1506,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "Challenge V8 (Track Only)",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 5%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "488 GTB, Spider",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.9 V8 Bi-Turbo",
+                                "leistung": "670 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "670 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "850 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "Preis auf Anfrage",
+                                    "model": "488 GTB, Spider",
+                                    "dorpmlimit": "",
+                                    "otorque": "760 Nm",
+                                    "s1power": "720 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "Preis auf Anfrage",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2015 -> ...",
+                                    "s1dpower": "+ 50 Ps",
+                                    "s2dpower": "",
+                                    "id": 1507,
+                                    "s1dtorque": "+ 90 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.9 V8 Bi-Turbo",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 6%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2015 -> ..."
+                }
+            ]
+        },
+        {
+            "name": "512TR",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "5.0 V12",
+                                "leistung": "428 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "428 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "510 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1540",
+                                    "model": "512TR",
+                                    "dorpmlimit": "",
+                                    "otorque": "490 Nm",
+                                    "s1power": "447 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1440",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 19 Ps",
+                                    "s2dpower": "",
+                                    "id": 1508,
+                                    "s1dtorque": "+ 20 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "5.0 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "599 GTB",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.0 V12",
+                                "leistung": "620 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "620 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "635 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "599 GTB",
+                                    "dorpmlimit": "",
+                                    "otorque": "608 Nm",
+                                    "s1power": "645 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 25 Ps",
+                                    "s2dpower": "",
+                                    "id": 1509,
+                                    "s1dtorque": "+ 27 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.0 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "612 Scaglietti",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "5.7 V12",
+                                "leistung": "540 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "540 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "607 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "612 Scaglietti",
+                                    "dorpmlimit": "",
+                                    "otorque": "588 Nm",
+                                    "s1power": "564 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 24 Ps",
+                                    "s2dpower": "",
+                                    "id": 1510,
+                                    "s1dtorque": "+ 19 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "5.7 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "812 Superfast",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.5 V12",
+                                "leistung": "800 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "800 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "748 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "Preis auf Anfrage",
+                                    "model": "812 Superfast",
+                                    "dorpmlimit": "",
+                                    "otorque": "718 Nm",
+                                    "s1power": "825 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "Preis auf Anfrage",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2017 -> …",
+                                    "s1dpower": "+ 25 Ps",
+                                    "s2dpower": "",
+                                    "id": 1511,
+                                    "s1dtorque": "+ 30 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.5 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2017 -> …"
+                }
+            ]
+        },
+        {
+            "name": "California",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.9 V8 Turbo",
+                                "leistung": "560 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "560 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "850 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "California",
+                                    "dorpmlimit": "",
+                                    "otorque": "755 Nm",
+                                    "s1power": "660 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 100 Ps",
+                                    "s2dpower": "",
+                                    "id": 1512,
+                                    "s1dtorque": "+ 95 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.9 V8 Turbo",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 6%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "4.3 V8",
+                                "leistung": "460 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "460 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "505 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "California",
+                                    "dorpmlimit": "",
+                                    "otorque": "485 Nm",
+                                    "s1power": "480 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 20 Ps",
+                                    "s2dpower": "",
+                                    "id": 1513,
+                                    "s1dtorque": "+ 20 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "4.3 V8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "Enzo",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.0 V12",
+                                "leistung": "660 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "660 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "690 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "Preis auf Anfrage",
+                                    "model": "Enzo",
+                                    "dorpmlimit": "",
+                                    "otorque": "657 Nm",
+                                    "s1power": "685 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "Preis auf Anfrage",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2002 -> 2004",
+                                    "s1dpower": "+ 25 Ps",
+                                    "s2dpower": "",
+                                    "id": 1514,
+                                    "s1dtorque": "+ 33 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.0 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 3%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2002 -> 2004"
+                }
+            ]
+        },
+        {
+            "name": "F12",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.3 V12",
+                                "leistung": "740 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "740 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "720 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "F12",
+                                    "dorpmlimit": "",
+                                    "otorque": "690 Nm",
+                                    "s1power": "770 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2012 -> …",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1515,
+                                    "s1dtorque": "+ 30 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.3 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "6.3 V12 TDF",
+                                "leistung": "780 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "780 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "740 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "F12",
+                                    "dorpmlimit": "",
+                                    "otorque": "705 Nm",
+                                    "s1power": "810 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2012 -> …",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1516,
+                                    "s1dtorque": "+ 35 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.3 V12 TDF",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2012 -> …"
+                }
+            ]
+        },
+        {
+            "name": "F150, La Ferrari",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.3 V12",
+                                "leistung": "963 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "963 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "930 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "3590",
+                                    "model": "F150, La Ferrari",
+                                    "dorpmlimit": "",
+                                    "otorque": "900 Nm",
+                                    "s1power": "993 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "3490",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1517,
+                                    "s1dtorque": "+ 30 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.3 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "F430",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "4.3 V8",
+                                "leistung": "490 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "490 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "490 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "F430",
+                                    "dorpmlimit": "",
+                                    "otorque": "465 Nm",
+                                    "s1power": "517 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "Preise und technische Daten nur per E-Mail",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2004 -> …",
+                                    "s1dpower": "+ 27 Ps",
+                                    "s2dpower": "+ 40 Ps",
+                                    "id": 1518,
+                                    "s1dtorque": "+ 25 Nm",
+                                    "s2power": "530 Ps",
+                                    "s4torque": "",
+                                    "motortype": "4.3 V8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "+ 45 Nm",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 3%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "510 Nm",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "4.3 V8",
+                                "leistung": "510 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "510 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "520 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "F430",
+                                    "dorpmlimit": "",
+                                    "otorque": "490 Nm",
+                                    "s1power": "540 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2004 -> …",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1519,
+                                    "s1dtorque": "+ 30 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "4.3 V8",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 3%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2004 -> …"
+                }
+            ]
+        },
+        {
+            "name": "FF",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.3 V12",
+                                "leistung": "660 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "660 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "703 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "FF",
+                                    "dorpmlimit": "",
+                                    "otorque": "683 Nm",
+                                    "s1power": "685 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2011 -> …",
+                                    "s1dpower": "+ 25 Ps",
+                                    "s2dpower": "",
+                                    "id": 1520,
+                                    "s1dtorque": "+ 20 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.3 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 1%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2011 -> …"
+                }
+            ]
+        },
+        {
+            "name": "GTC 4 Lusso",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.9 V8 Bi-Turbo",
+                                "leistung": "610 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "610 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "850 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "Preis auf Anfrage",
+                                    "model": "GTC 4 Lusso",
+                                    "dorpmlimit": "",
+                                    "otorque": "760 Nm",
+                                    "s1power": "720 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "Preis auf Anfrage",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2016 -> ...",
+                                    "s1dpower": "+ 110 Ps",
+                                    "s2dpower": "",
+                                    "id": 1521,
+                                    "s1dtorque": "+ 90 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.9 V8 Bi-Turbo",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 6%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "6.3 V12",
+                                "leistung": "690 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "690 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "725 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "GTC 4 Lusso",
+                                    "dorpmlimit": "",
+                                    "otorque": "697 Nm",
+                                    "s1power": "720 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2016 -> ...",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1522,
+                                    "s1dtorque": "+ 28 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.3 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2016 -> ..."
+                }
+            ]
+        },
+        {
+            "name": "M575",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "5.8 v12",
+                                "leistung": "515 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "515 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "612 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1540",
+                                    "model": "M575",
+                                    "dorpmlimit": "",
+                                    "otorque": "589 Nm",
+                                    "s1power": "537 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1440",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 22 Ps",
+                                    "s2dpower": "",
+                                    "id": 1523,
+                                    "s1dtorque": "+ 23 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "5.8 v12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "Portofino",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "3.9 V8 Bi-Turbo",
+                                "leistung": "600 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "600 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "850 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1990",
+                                    "model": "Portofino",
+                                    "dorpmlimit": "",
+                                    "otorque": "760 Nm",
+                                    "s1power": "660 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1890",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2017 -> …",
+                                    "s1dpower": "+ 60 Ps",
+                                    "s2dpower": "",
+                                    "id": 1524,
+                                    "s1dtorque": "+ 90 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "3.9 V8 Bi-Turbo",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 6%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Ferrari",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2017 -> …"
+                }
+            ]
+        }
+    ]
+}

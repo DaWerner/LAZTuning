@@ -1,0 +1,65 @@
+{
+    "brand": "Alpine",
+    "models": [
+        {
+            "name": "A110",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "1.8 T",
+                                "leistung": "252 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "252 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "380 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "740",
+                                    "model": "A110",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "295 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "640",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2017 -> …",
+                                    "s1dpower": "+ 43 Ps",
+                                    "s2dpower": "",
+                                    "id": 143,
+                                    "s1dtorque": "+ 60 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "1.8 T",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 10%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Alpine",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2017 -> …"
+                }
+            ]
+        }
+    ]
+}

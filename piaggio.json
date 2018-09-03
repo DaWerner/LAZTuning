@@ -1,0 +1,65 @@
+{
+    "brand": "Piaggio",
+    "models": [
+        {
+            "name": "Porter Maxxi",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "1.3 D120",
+                                "leistung": "64 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "64 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "180 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "490",
+                                    "model": "Porter Maxxi",
+                                    "dorpmlimit": "",
+                                    "otorque": "140 Nm",
+                                    "s1power": "85 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "390",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2012 -> …",
+                                    "s1dpower": "+ 21 Ps",
+                                    "s2dpower": "",
+                                    "id": 3753,
+                                    "s1dtorque": "+ 40 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "1.3 D120",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 14%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Piaggio",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2012 -> …"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "brand": "Bugatti",
+    "models": [
+        {
+            "name": "Veyron",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "8.0 l",
+                                "leistung": "1001 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "1001 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "1400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "6270",
+                                    "model": "Veyron",
+                                    "dorpmlimit": "",
+                                    "otorque": "1250 Nm",
+                                    "s1power": "1200 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "6170",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 199 Ps",
+                                    "s2dpower": "",
+                                    "id": 1122,
+                                    "s1dtorque": "+ 150 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "8.0 l",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 6%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Bugatti",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        }
+    ]
+}

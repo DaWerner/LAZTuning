@@ -1,0 +1,65 @@
+{
+    "brand": "Rolls Royce",
+    "models": [
+        {
+            "name": "Wraith",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "6.6 V12",
+                                "leistung": "633 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "633 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "950 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "1950",
+                                    "model": "Wraith",
+                                    "dorpmlimit": "",
+                                    "otorque": "795 Nm",
+                                    "s1power": "700 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "1850",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 67 Ps",
+                                    "s2dpower": "",
+                                    "id": 4176,
+                                    "s1dtorque": "+ 155 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "6.6 V12",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 10%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Rolls Royce",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "All"
+                }
+            ]
+        }
+    ]
+}

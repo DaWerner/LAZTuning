@@ -1,0 +1,125 @@
+{
+    "brand": "Daewoo",
+    "models": [
+        {
+            "name": "Tosca",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 VCDI",
+                                "leistung": "150 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "150 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "380 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "620",
+                                    "model": "Tosca",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "520",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1431,
+                                    "s1dtorque": "+ 60 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 VCDI",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 9%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Daewoo",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "All"
+                }
+            ]
+        },
+        {
+            "name": "Winstorm",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 VCDI",
+                                "leistung": "150 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "150 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "380 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "620",
+                                    "model": "Winstorm",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "180 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "520",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "All",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1432,
+                                    "s1dtorque": "+ 60 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 VCDI",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 9%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Daewoo",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "All"
+                }
+            ]
+        }
+    ]
+}

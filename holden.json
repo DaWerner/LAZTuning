@@ -1,0 +1,65 @@
+{
+    "brand": "Holden",
+    "models": [
+        {
+            "name": "Colorado",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.8 Duramax",
+                                "leistung": "180 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "180 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "550 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "690",
+                                    "model": "Colorado",
+                                    "dorpmlimit": "",
+                                    "otorque": "440 Nm",
+                                    "s1power": "210 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "590",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2015 -> ...",
+                                    "s1dpower": "+ 30 Ps",
+                                    "s2dpower": "",
+                                    "id": 1986,
+                                    "s1dtorque": "+ 110 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.8 Duramax",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 13%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Holden",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2015 -> ..."
+                }
+            ]
+        }
+    ]
+}

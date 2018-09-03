@@ -1,0 +1,472 @@
+{
+    "brand": "Dodge",
+    "models": [
+        {
+            "name": "Avenger",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 CRD",
+                                "leistung": "140 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "140 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "510",
+                                    "model": "Avenger",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "175 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "410",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2006 -> 2007",
+                                    "s1dpower": "+ 35 Ps",
+                                    "s2dpower": "",
+                                    "id": 1433,
+                                    "s1dtorque": "+ 80 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 CRD",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 13%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2006 -> 2007"
+                }
+            ]
+        },
+        {
+            "name": "Caliber",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 CRD",
+                                "leistung": "140 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "140 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "510",
+                                    "model": "Caliber",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "175 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "410",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2006 -> 2007",
+                                    "s1dpower": "+ 35 Ps",
+                                    "s2dpower": "",
+                                    "id": 1434,
+                                    "s1dtorque": "+ 80 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 CRD",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 13%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            },
+                            {
+                                "bezeichnung": "2.2 CRD",
+                                "leistung": "163 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "163 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "370 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "620",
+                                    "model": "Caliber",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "200 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "520",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2006 -> 2007",
+                                    "s1dpower": "+ 37 Ps",
+                                    "s2dpower": "",
+                                    "id": 1435,
+                                    "s1dtorque": "+ 50 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.2 CRD",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 8%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2006 -> 2007"
+                }
+            ]
+        },
+        {
+            "name": "Charger",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "SRT8 6.1",
+                                "leistung": "425 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "425 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "585 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "Preis auf Anfrage",
+                                    "model": "Charger",
+                                    "dorpmlimit": "",
+                                    "otorque": "560 Nm",
+                                    "s1power": "460 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "Preis auf Anfrage",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2006 -> 2010",
+                                    "s1dpower": "+ 35 Ps",
+                                    "s2dpower": "",
+                                    "id": 1436,
+                                    "s1dtorque": "+ 25 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "SRT8 6.1",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 2%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2006 -> 2010"
+                }
+            ]
+        },
+        {
+            "name": "Journey",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.0 CRD",
+                                "leistung": "140 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "140 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "400 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "510",
+                                    "model": "Journey",
+                                    "dorpmlimit": "",
+                                    "otorque": "320 Nm",
+                                    "s1power": "175 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "410",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2006 -> 2009",
+                                    "s1dpower": "+ 35 Ps",
+                                    "s2dpower": "",
+                                    "id": 1437,
+                                    "s1dtorque": "+ 80 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.0 CRD",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 13%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2006 -> 2009"
+                }
+            ]
+        },
+        {
+            "name": "Nitro",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "2.8 CRD",
+                                "leistung": "177 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "177 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "520 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "610",
+                                    "model": "Nitro",
+                                    "dorpmlimit": "",
+                                    "otorque": "420 Nm",
+                                    "s1power": "210 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "510",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "... -> 2004",
+                                    "s1dpower": "+ 33 Ps",
+                                    "s2dpower": "",
+                                    "id": 1438,
+                                    "s1dtorque": "+ 100 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "2.8 CRD",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 12%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "... -> 2004"
+                }
+            ]
+        },
+        {
+            "name": "Ram",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [],
+                        "diesel": [
+                            {
+                                "bezeichnung": "1500 - 3.0D Ecodiesel",
+                                "leistung": "240 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "240 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "660 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "690",
+                                    "model": "Ram",
+                                    "dorpmlimit": "",
+                                    "otorque": "570 Nm",
+                                    "s1power": "305 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "590",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2013 -> …",
+                                    "s1dpower": "+ 65 Ps",
+                                    "s2dpower": "",
+                                    "id": 1439,
+                                    "s1dtorque": "+ 90 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "1500 - 3.0D Ecodiesel",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 8%",
+                                    "fuel": "Diesel",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ]
+                    },
+                    "jahr": "2013 -> …"
+                }
+            ]
+        },
+        {
+            "name": "Viper",
+            "baujahre": [
+                {
+                    "motoren": {
+                        "benzin": [
+                            {
+                                "bezeichnung": "8.4 V10 SRT-10",
+                                "leistung": "500 Ps",
+                                "full": {
+                                    "ds2price": "",
+                                    "opower": "500 Ps",
+                                    "s3price": "",
+                                    "s3dtorque": "",
+                                    "s1torque": "730 Nm",
+                                    "dostime": "",
+                                    "ds1price": "",
+                                    "s4power": "",
+                                    "s4price": "",
+                                    "s1price": "890",
+                                    "model": "Viper",
+                                    "dorpmlimit": "",
+                                    "otorque": "712 Nm",
+                                    "s1power": "520 Ps",
+                                    "s3dpower": "",
+                                    "ds1lcontrol": "",
+                                    "s3torque": "",
+                                    "s2price": "",
+                                    "eprice": "790",
+                                    "ds1rpmlimit": "",
+                                    "buildyear": "2008 -> ...",
+                                    "s1dpower": "+ 20 Ps",
+                                    "s2dpower": "",
+                                    "id": 1440,
+                                    "s1dtorque": "+ 18 Nm",
+                                    "s2power": "",
+                                    "s4torque": "",
+                                    "motortype": "8.4 V10 SRT-10",
+                                    "ds1stime": "",
+                                    "s4dtorque": "",
+                                    "ds2rpmlimit": "",
+                                    "s2dtorque": "",
+                                    "dolcontrol": "",
+                                    "eefreduction": "+/- 1%",
+                                    "fuel": "Benzin",
+                                    "s2torque": "",
+                                    "brand": "Dodge",
+                                    "s3power": "",
+                                    "s4dpower": "",
+                                    "ds2lcontrol": "",
+                                    "ds2stime": ""
+                                }
+                            }
+                        ],
+                        "diesel": []
+                    },
+                    "jahr": "2008 -> ..."
+                }
+            ]
+        }
+    ]
+}
