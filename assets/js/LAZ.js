@@ -26,107 +26,83 @@ document.querySelectorAll(".news_header").forEach(n=>{
 });
 }
 
-function setBrandListener(){
+function initSelection(){
     document.querySelectorAll("#brands img").forEach(x=>{
         x.addEventListener("click", function(e){
-            let val = e.target.src.split("/")[e.target.src.split("/").length-1];
-            console.log(val)
-            document.querySelector("#brandLogo img").src = e.target.src;
-            document.querySelector("#select").style.display = "block";
-            document.querySelector("#brands").style.display = "none";
-            showBrand(val.replace(".png", ""))
+            let name = e.target.src;
+            name = name.split("/")[name.split("/").length -1];
+            name = name.split(".")[0]
+            console.log(name);
+            readBrands(name);
+            document.querySelector("#brands").style.display="none";
+            document.querySelector("#select").style.display="block";
         })
     })
 }
 
-String.prototype.replaceAll = function(toRepl, replacement){
-    return this.split(toRepl).join(replacement);
+var curMotors = null;
+
+function fillMotors(BY){
+    for(let i = 0; i < curModel.baujahre.length; i++){
+        if(curModel.baujahre[i].jahr === BY){
+            curMotors = curModel.baujahre[i].motoren
+        }
+    }
+    document.querySelectorAll("#motoren .option").forEach(e=>{
+        $(e).remove();
+    })
+    curMotors.benzin.forEach(b=>{
+        $("#motoren .select_header").after(
+          "<div class='option'>"+ b.bezeichnung+ "&nbsp&nbsp Benziner</div>")
+    })
+    curMotors.diesel.forEach(d=>{
+        $("#motoren .select_header").after(
+          "<div class='option'>"+ d.bezeichnung+ "&nbsp&nbsp Diesel</div>")
+    })
 }
 
-var current = {}
-var curModel = "";
-var curBaujahr = "";
-var curMotor = "";
+var curModel = null;
 
-function showBrand(wanted){
-    for(var i =0; i < Brands.length; i++){
-        let brand =  Brands[i].brand.toLowerCase().replaceAll(" ", "_");
-        if(brand === wanted){ current = Brands[i]; break;}
-    }
-    for(var j = 0; j < current.models.length; j++){
-        let model = current.models[j];
-        let modelId = model.name.replaceAll(" ", "_");
-        $("#models .select_header").after("<div id='"+modelId+"' class='option'>"+ model.name + "</div>");
-    }
-    document.querySelectorAll("#models .option").forEach(m=>{
-            m.addEventListener("click", function(e){
-                if(document.querySelector("#motoren .option"))
-                    document.querySelectorAll("#motoren .option").forEach(x=>$(x).remove());
-                curModel = e.target.id;
-                showBuild(e.target.id);
-            })
-        })
-}
-
-function showMotors( baujahr){
-    let model1 = null;
-    for(var j = 0; j < current.models.length; j++){
-        if(curModel.name === current.models[j].name){
-            model1 = current.models[j];
+function fillBuildYears(modelName){
+    for(let i = 0; i < curBrand.models.length; i++){
+        if(curBrand.models[i].name === modelName){
+            curModel = curBrand.models[i];
             break;
         }
     }
-    let bj = null;
-    let bjIndex = parseInt(baujahr.replace("bj", ""));
-    for(var i = 0; i < model1.baujahre.length; i++){
-        if(bjIndex === i) {bj = model1.baujahre[i]; break;}
-    }
-    if(document.querySelector("#motoren .option"))
-        document.querySelectorAll("#motoren .option").forEach(x=>$(x).remove());
-    for(var k = 0; k < bj.motoren.benzin.length; k++){
-        let val = bj.motoren.benzin[k];
-        let mID = (val.bezeichnung + "__" + val.leistung + "__Benzin").replaceAll(" ", "_");
-        $("#motoren .select_header").after("<div class='option' id='" + mID+ "'>"+mID.replaceAll("__", "&nbsp&nbsp&nbsp").replaceAll("_", " ")+"</div>");
-    }
-    for(var k = 0; k < bj.motoren.diesel.length; k++){
-        let val = bj.motoren.diesel[k];
-        let mID = (val.bezeichnung + "__" + val.leistung + "__Diesel").replaceAll(" ", "_");
-        $("#motoren .select_header").after("<div class='option' id='" + mID+ "'>"+mID.replaceAll("__", "&nbsp&nbsp&nbsp").replaceAll("_", " ")+"</div>");
-    }
-    
+    document.querySelectorAll("#motoren .option").forEach(e=>{
+        $(e).remove();
+    })
+    document.querySelectorAll("#baujahre .option").forEach(e=>{
+        $(e).remove();
+    })
+    curModel.baujahre.forEach(x=>{
+        $("#baujahre .select_header").after(
+          "<div onclick=\"fillMotors('"+x.jahr+"')\" class='option'>" + x.jahr + "</div>")
+    })
 }
 
-function showBuild(model){
-    let model1 = null;
-    document.querySelectorAll("#baujahre .option").forEach(x=>$(x).remove());
-    for(var j = 0; j < current.models.length; j++){
-        if(model === current.models[j].name){
-            model1 = current.models[j];
-            break;
-        }
-    }
-    curModel = model1;
-    for(var i = 0; i < model1.baujahre.length; i++){
-        let bjID = model1.baujahre[i].jahr.replaceAll(" ", "_");
-        if(bjID === "All") continue;
-        $("#baujahre .select_header").after("<div id='bj"+i+"' class='option'>"+ model1.baujahre[i].jahr + "</div>")
-        document.querySelector("#bj"+i).addEventListener("click", function(e){
-                curBaujahr = e.target.id;
-                showMotors(e.target.id);
-        })
-    }
-    
+function fillModels(){
+    let models = curBrand.models;
+    document.querySelectorAll("#models .option").forEach(e=>{
+        $(e).remove();
+    })
+
+    models.forEach(x=>{
+        $("#models .select_header").after(
+          "<div onclick=\"fillBuildYears('"+x.name+"')\" class='option'>"+ x.name + "</div>");
+    })
 }
 
-var Brands = []
+curBrand = []
 
-function readBrands(){
+function readBrands(name){
     $.ajax({
-        url: "https://"+ window.location.host +"/LAZTuning/brands.json",
-        method: "GET",
-        success: function (data, textStatus, jqXHR) {
-                     console.log(data);
-                     Brands = data;
-                 }
+        url: "./"+ name + ".json",
+        success: function (data) {
+             curBrand = data;   
+             fillModels();
+        }
+    
     })
 }

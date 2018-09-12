@@ -15,8 +15,9 @@
 }
 
 .selectTable{
+    color: black;
     min-height: 300px;
-    background-color: #ff000052;
+    background: linear-gradient( to right, rgb(154, 134, 72) 0%, rgb(249, 186, 44) 24%, #deae43 78%, rgba(160,144,96,1) 100%);
     border-radius: 5px;
     margin-bottom: 30px;
 }
@@ -33,15 +34,15 @@
 .selectTable .select_header{
     width: 100%;
     font-size: 25px;
-    border-bottom: 1px solid white;
-    background-color: #770000;
+    border-bottom: 3px solid #c7c6c2;
+    background: linear-gradient( to right, rgba(160,144,96,1) 0%, rgba(248,223,149,1) 24%, #f8df95 78%, rgba(160,144,96,1) 100%);
     line-height: 2;
     text-align: center;
 }
 
 .selectTable .option{
-    color: white;
-    border-bottom: 1px dotted white;
+    /* color: white; */
+    border-bottom: 1px dotted #c7c6c2;
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
