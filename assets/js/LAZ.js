@@ -40,6 +40,42 @@ function initSelection(){
     })
 }
 
+var tableData = null;
+
+function prepTable(selMotor, type){
+    let data = curMotors[type];
+    let motor = null;
+    for(let i = 0; i < data.length; i++){
+        if(data[i].bezeichnung === selMotor){
+            motor = data[i];
+            break;
+        }
+    }
+    tableData = motor.full;
+    fillTable("s1", null);
+    if(!tableData.s1price) document.querySelector("#s1").style.display = "none";
+    if(!tableData.s2price) document.querySelector("#s2").style.display = "none";
+    if(!tableData.s3price) document.querySelector("#s3").style.display = "none";
+    if(!tableData.s4price) document.querySelector("#s4").style.display = "none";
+
+    document.querySelector("#select").style.display = "none";
+    document.querySelector("#resultTable").style.display = "block";
+    document.querySelector("#s1").classList.add("active")
+}
+
+function fillTable(set, ele){
+     $("#origPower").text(tableData.opower);
+    $("#tuningPower").text(tableData[set+"power"]);
+    $("#diffPower").text(tableData[set+"dpower"]);
+    $("#origTorque").text(tableData.otorque);
+    $("#tuningTorque").text(tableData[set+"torque"]);
+    $("#diffTorque").text(tableData[set+"dtorque"]);
+    $("#price").text("€ " +tableData[set+"price"]);
+    if(!ele) return;
+    document.querySelector(".row button.active").classList.remove("active");
+    ele.classList.add("active");
+}
+
 var curMotors = null;
 
 function fillMotors(BY){
@@ -53,11 +89,11 @@ function fillMotors(BY){
     })
     curMotors.benzin.forEach(b=>{
         $("#motoren .select_header").after(
-          "<div class='option'>"+ b.bezeichnung+ "&nbsp&nbsp Benziner</div>")
+          "<div onclick=\"prepTable('"+b.bezeichnung+"', 'benzin')\" class='option'>"+ b.bezeichnung+ "&nbsp&nbsp Benziner</div>")
     })
     curMotors.diesel.forEach(d=>{
         $("#motoren .select_header").after(
-          "<div class='option'>"+ d.bezeichnung+ "&nbsp&nbsp Diesel</div>")
+          "<div onclick=\"prepTable('"+d.bezeichnung+"', 'diesel')\" class='option'>"+ d.bezeichnung+ "&nbsp&nbsp Diesel</div>")
     })
 }
 

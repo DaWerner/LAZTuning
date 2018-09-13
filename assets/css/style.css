@@ -14,6 +14,66 @@
     border-bottom: 2px solid red;
 }
 
+#resultTable{
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+#resultTable thead th {
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.row button {
+    margin-left: 0%;
+    background: linear-gradient( to right, rgb(183, 183, 182) 0%, rgb(230, 230, 230) 24%, #d2d1d0 78%, rgb(156, 150, 130) 100%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.row button:hover{
+    opacity: 0.8;
+}
+
+.row button.active{
+    background: linear-gradient( to right, rgb(234, 214, 149) 0%, rgb(255, 202, 82) 25%, #ffce60 50%, rgb(255, 228, 151) 75%);}
+
+.buttonRow {
+    margin-bottom: 50px;
+    color: black;
+    font-weight: 900;
+    background: linear-gradient( to right, rgb(154, 134, 72) 0%, rgb(249, 186, 44) 24%, #deae43 78%, rgba(160,144,96,1) 100%);
+    width: 830px;
+}
+
+.value_field{
+    color: black;
+    background: linear-gradient( to right, rgb(134, 134, 134) 0%, rgb(230, 230, 230) 24%, #cecece 78%, rgb(136, 136, 136) 100%);
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 15px 5px #00000017;}
+
+.label_field {
+text-align: center;
+    color: black;
+    font-size: 20px;
+    text-shadow: 10px 10px #ab99593d;
+    font-weight: 900;    background: linear-gradient( to right, rgb(154, 134, 72) 0%, rgb(249, 186, 44) 24%, #deae43 78%, rgba(160,144,96,1) 100%);
+}
+
+div#resultTable td {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.hiddenCell{
+    border: 0px solid white !important;
+}
+
 .selectTable{
     color: black;
     min-height: 300px;

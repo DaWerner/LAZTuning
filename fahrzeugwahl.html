@@ -102,6 +102,57 @@
         </div>
         <!--./ HOME SECTION END -->
         <div id="about" >
+
+            <div id="resultTable" style="display: none">
+            <div class="buttonRow row">
+                <button id="eco">Eco</button>
+                <button onclick="fillTable('s1', this)" id="s1">Stufe 1</button>
+                <button onclick="fillTable('s2', this)" id="s2">Stufe 2</button>
+                <button onclick="fillTable('s3', this)" id="s3">Stufe 3</button>
+                <button onclick="fillTable('s4', this)" id="s4">Stufe 4</button>
+
+            </div>
+                <table>
+                    <thead>
+                    <th class="hiddenCell">
+                        
+                    </th>
+                    <th class="label_field">
+                        Original
+                    </th>
+                    <th class="label_field">
+                        Nach tuning
+                    </th>
+                    <th class="label_field">
+                        Differenz
+                    </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="label_field">Power</td>
+                            <td id="origPower" class="value_field"></td>
+                            <td id="tuningPower" class="value_field"></td>
+                            <td id="diffPower" class="value_field"></td>
+
+                        </tr>
+                        <tr>
+                            <td class="label_field">Drehmoment</td>
+                            <td id="origTorque" class="value_field"></td>
+                            <td id="tuningTorque" class="value_field"></td>
+                            <td id="diffTorque" class="value_field"></td>
+
+                        </tr>  
+                        <tr>
+                            <td class="label_field">Preis inkl. MwSt.</td>
+                            <td class="hiddenCell"></td>
+                            <td class="hiddenCell"></td>
+                            <td id="price" class="value_field"></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
             <div id="select" class="container" style="display: none">
                 <div id="brandLogo">
                     <img src="">
