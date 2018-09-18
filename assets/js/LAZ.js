@@ -89,11 +89,11 @@ function fillMotors(BY){
     })
     curMotors.benzin.forEach(b=>{
         $("#motoren .select_header").after(
-          "<div onclick=\"prepTable('"+b.bezeichnung+"', 'benzin')\" class='option'>"+ b.bezeichnung+ "&nbsp&nbsp Benziner</div>")
+          "<div onclick=\"prepTable('"+b.bezeichnung+"', 'benzin')\" class='option'>"+ b.bezeichnung+"&nbsp"+b.full.opower+"&nbsp&nbsp Benziner</div>")
     })
     curMotors.diesel.forEach(d=>{
         $("#motoren .select_header").after(
-          "<div onclick=\"prepTable('"+d.bezeichnung+"', 'diesel')\" class='option'>"+ d.bezeichnung+ "&nbsp&nbsp Diesel</div>")
+          "<div onclick=\"prepTable('"+d.bezeichnung+"', 'diesel')\" class='option'>"+ d.bezeichnung+"&nbsp"+d.full.opower+ "&nbsp&nbsp Diesel</div>")
     })
 }
 
