@@ -23,9 +23,11 @@ div#modelName {
     font-size: 30px;
     height: 80px;
     line-height: 1;
+    color: #eaeaea;
     padding-top: 10px;
     margin-left: 20px;
     text-decoration: underline;
+    text-shadow: 15px 5px #00000017, -1px 1px #000, -1px 1px #000, -1px 1px #000;
 }
 
 td#price{
