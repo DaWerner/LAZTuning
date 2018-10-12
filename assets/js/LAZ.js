@@ -77,7 +77,7 @@ function fillTable(set, ele) {
     $("#price").text("€ " + tableData[set + "price"]);
     if (!ele)
         return;
-    document.querySelector(".row button.active").classList.remove("active");
+    document.querySelectorAll(".row button").forEach(x=>x.classList.remove("active"));
     ele.classList.add("active");
 
 }
