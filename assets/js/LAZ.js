@@ -1,7 +1,16 @@
+function setBrandHover(){
+    document.querySelectorAll("#brands img").forEach(x=>{
+        let name = x.src;
+            name = name.split("/")[name.split("/").length - 1];
+            name = name.split(".")[0].replace("_", " ");
+        x.title = name.toUpperCase();
+    })
+}
 
 
 function initSelection() {
     setBG();
+    setBrandHover();
     document.querySelectorAll("#brands img").forEach(x => {
         x.addEventListener("click", function (e) {
             let name = e.target.src;
