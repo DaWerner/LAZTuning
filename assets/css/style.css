@@ -9,6 +9,14 @@
    
     ========================================================  */
 
+#brandLogo>img{
+    max-width: 300px;
+    max-height: 150px;
+}
+
+.modelImg>img{
+    width: 100%;
+}
 
 .navbar-nav li:hover{
     border-bottom: 2px solid red;

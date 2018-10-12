@@ -1,32 +1,7 @@
-var news = {beschl: {text: "Ab jetzt bieten wir auch Beschleunigungsmessungen an. Egal ob 0-100, 60-120, viertelmeile oder individuelle Messung. Bei unseren Leistungssteigerungen bieten wir den Service als Vor- und Nachmessung an. Unser System gleicht die Sateliten 6mal pro Sekunde ab und gewährt somit ein exaktes Ergebnis.",
-        header: "Beschleunigungsmessung"},
-    folien: {text: "Heckleuchten Tönungsfolie oder Teilbeklebung möglich. Wir weisen Sie darauf hin dass diese Veränderung keine ABE hat. Die Folie ist nicht komplett dunkel und beeinträchtigt keinerlei Leuchtkraft.",
-        header: "LAZ Folientechnik"},
-    angel_eyes: {text: "Wir bieten Lichttechnik für Ihre Angel Eyes an. Damit das gelblich Leuchtende in ein helles weiss erscheint. Bessere Lichtausbeute und längere Lebensdauer. Das Erscheinunsbild mit hell weissen Angel Eyes ist einfach genial. Auf Wunsch haben wir auch Folie zum abdunkeln der Blinker für ein perfektes finish.",
-        header: "Angel Eyes"},
-    leuchtmittel: {text: "Jetzt neu eingetroffen H7 Leuchtmittel 12V/55W. Leuchtkraft entspricht 110W. Gas Xenon Technologie mit ABE",
-        header: "H7 Leuchtmittel"}
-};
 
-function init() {
-    setNewsListener();
-}
-
-function setNewsListener() {
-    document.querySelectorAll(".news_header").forEach(n => {
-        n.addEventListener("click", function (e) {
-            let tID = e.target.id;
-            let text = news[tID].text;
-            let header = news[tID].header;
-            $("#newsText").empty();
-            $("#newsHeader").empty();
-            $("#newsText").text(text);
-            $("#newsHeader").text(header);
-        });
-    });
-}
 
 function initSelection() {
+    setBG();
     document.querySelectorAll("#brands img").forEach(x => {
         x.addEventListener("click", function (e) {
             let name = e.target.src;
@@ -65,6 +40,7 @@ function prepTable(selMotor, type) {
     document.querySelector("#select").style.display = "none";
     document.querySelector("#resultTable").style.display = "block";
     document.querySelector("#s1").classList.add("active")
+    document.querySelector(".modelImg>img").src= "./assets/img/models/"+ curModel.name + ".jpg"
 }
 
 function fillTable(set, ele) {
@@ -203,4 +179,17 @@ function readBrands(name) {
         }
 
     })
+}
+
+function getQueryParameter(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function setBG(){
+    let val = getQueryParameter("bg_color") || "black";
+    if(val.match(/[a-f0-9]{6}/)||val.match(/[a-f0-9]{3}/)) val = "#"+ val;
+    document.querySelector("body").style.backgroundColor = val;
+    document.querySelector("#about").style.backgroundColor = val;
+
 }
