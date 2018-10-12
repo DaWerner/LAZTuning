@@ -39,8 +39,11 @@ function prepTable(selMotor, type) {
 
     document.querySelector("#select").style.display = "none";
     document.querySelector("#resultTable").style.display = "block";
+    document.querySelector("#selectRet").classList.remove("active");
+    document.querySelector("#resultsRet").classList.add("active");
+
     document.querySelector("#s1").classList.add("active")
-    document.querySelector(".modelImg>img").src= "./assets/img/models/"+ curModel.name + ".jpg"
+    document.querySelector(".modelImg>img").src = "./assets/img/models/" + curModel.name + ".jpg"
 }
 
 function fillTable(set, ele) {
@@ -67,6 +70,7 @@ function fillTable(set, ele) {
         return;
     document.querySelector(".row button.active").classList.remove("active");
     ele.classList.add("active");
+
 }
 
 function fillEco(elem) {
@@ -105,7 +109,7 @@ function fillMotors(BY) {
         $("#motoren .select_header").after(
                 "<div onclick=\"prepTable('" + d.bezeichnung + "', 'diesel')\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
     })
-                    document.querySelector("#motoren").style.display = "block";
+    document.querySelector("#motoren").style.display = "block";
 
 }
 
@@ -129,15 +133,20 @@ function fillBuildYears(modelName) {
         $("#baujahre .select_header").after(
                 "<div onclick=\"fillMotors('" + x.jahr + "')\" class='option'>" + x.jahr + "</div>")
     })
-        document.querySelector("#baujahre").style.display = "block";
+    document.querySelector("#baujahre").style.display = "block";
+
 
 }
 
-function returnTo(state) {
+function returnTo(state, elem) {
     document.querySelector("#brands").style.display = "none";
     document.querySelector("#select").style.display = "none";
     document.querySelector("#resultTable").style.display = "none";
     document.querySelector("#" + state).style.display = "block";
+    document.querySelectorAll("#breadcrumb button").forEach(b => {
+        b.classList.remove("active");
+    })
+    elem.classList.add("active");
 }
 
 function fillModels() {
@@ -171,7 +180,8 @@ function readBrands(name) {
         success: function (data) {
             document.querySelector("#baujahre").style.display = "none";
             document.querySelector("#motoren").style.display = "none";
-
+            document.querySelector("#brandRet").classList.remove("active");
+            document.querySelector("#selectRet").classList.add("active");
             curBrand = data;
             fillModels();
 
@@ -186,9 +196,10 @@ function getQueryParameter(name) {
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
-function setBG(){
+function setBG() {
     let val = getQueryParameter("bg_color") || "black";
-    if(val.match(/[a-f0-9]{6}/)||val.match(/[a-f0-9]{3}/)) val = "#"+ val;
+    if (val.match(/[a-f0-9]{6}/) || val.match(/[a-f0-9]{3}/))
+        val = "#" + val;
     document.querySelector("body").style.backgroundColor = val;
     document.querySelector("#about").style.backgroundColor = val;
 

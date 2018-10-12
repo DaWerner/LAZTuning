@@ -35,9 +35,9 @@
     <body onload="initSelection()">
         <div id="about" >
            <div id="breadcrumb" class="buttonRow row">
-               <button onclick="returnTo('brands')">Marken Auswahl</button>
-                <button onclick="returnTo('select')" id="selectRet">Modellauswahl</button>
-                <button onclick="returnTo('resultTable')" id="resultsRet">Ergebnisse</button>
+               <button id="brandRet" class="active" onclick="returnTo('brands', this)">Marken Auswahl</button>
+                <button onclick="returnTo('select', this)" id="selectRet">Modellauswahl</button>
+                <button onclick="returnTo('resultTable', this)" id="resultsRet">Ergebnisse</button>
 
             </div>
             <div id="resultTable" style="display: none">
