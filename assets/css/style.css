@@ -45,7 +45,7 @@ div#modelName {
 
 td#price{
     font-size: 30px;
-    color: gold;
+    color: #ffef9b;
     text-shadow: -1px 1px #00000017, -1px 1px #000, -1px 1px #000, -1px 1px #000;
 
 }
@@ -79,10 +79,12 @@ td#price{
 
 .row button {
     margin-left: 0%;
-    background: linear-gradient( to right, rgb(183, 183, 182) 0%, rgb(230, 230, 230) 24%, #d2d1d0 78%, rgb(156, 150, 130) 100%);
+    /*background: linear-gradient( to right, rgb(255, 255, 253) 0%, rgb(230, 230, 230) 24%, #dadad9 78%, rgb(239, 239, 236) 100%);*/
+    background-color: rgb(160,144,96);
     margin-top: 5px;
     margin-bottom: 5px;
     width: 150px;
+    color: white;
 }
 
 .row button:hover{
@@ -90,7 +92,10 @@ td#price{
 }
 
 .row button.active{
-    background: linear-gradient( to right, rgb(234, 214, 149) 0%, rgb(255, 202, 82) 25%, #ffce60 50%, rgb(255, 228, 151) 75%);}
+    /*background: linear-gradient( to right, rgb(249, 228, 162) 0%, rgb(255, 236, 192) 25%, #fff8c6 50%, rgb(255, 233, 169) 75%);*/
+    background-color: white;
+    color: rgb(160,144,96);
+}
 
 .buttonRow {
     margin-bottom: 50px;
@@ -105,7 +110,7 @@ td#price{
 }
 
 .value_field{
-color: gold;
+color: #ffef9b;
     background: linear-gradient( to right, rgb(134, 134, 134) 0%, rgb(230, 230, 230) 24%, #cecece 78%, rgb(136, 136, 136) 100%);
     text-align: center;
     font-weight: 600;
@@ -116,7 +121,7 @@ color: gold;
 
 .label_field {
 text-align: center;
-    color: #eaeaea;
+    color: white;
     font-size: 25px;
     text-shadow: -1px 1px #00000017, -1px 1px #000, -1px 1px #000, -1px 1px #000;
     font-weight: 900;    
