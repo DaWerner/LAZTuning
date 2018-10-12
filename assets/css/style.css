@@ -9,6 +9,11 @@
    
     ========================================================  */
 
+div#about>div {
+    width: 100% !important;
+    margin-left: 0px;
+}
+
 #brandLogo>img{
     max-width: 300px;
     max-height: 150px;
