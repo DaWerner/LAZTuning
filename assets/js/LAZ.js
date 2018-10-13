@@ -119,6 +119,7 @@ function fillMotors(BY) {
                 "<div onclick=\"prepTable('" + d.bezeichnung + "', 'diesel')\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
     })
     document.querySelector("#motoren").style.display = "block";
+    document.querySelector("#motoren").scrollIntoView();
 
 }
 
@@ -143,6 +144,7 @@ function fillBuildYears(modelName) {
                 "<div onclick=\"fillMotors('" + x.jahr + "')\" class='option'>" + x.jahr + "</div>")
     })
     document.querySelector("#baujahre").style.display = "block";
+    document.querySelector("#baujahre").scrollIntoView();
 
 
 }
@@ -179,6 +181,7 @@ function fillModels() {
                 "<div onclick=\"fillBuildYears('" + x.name + "')\" class='option'>" + x.name + "</div>");
     })
 
+    document.querySelector("#models").scrollIntoView();
 }
 
 curBrand = []
