@@ -110,14 +110,20 @@ function fillMotors(BY) {
     document.querySelectorAll("#motoren .option").forEach(e => {
         $(e).remove();
     })
+    
+    document.querySelectorAll("#motoren .engine_seperator").forEach(e => {
+        $(e).remove();
+    })
     curMotors.benzin.reverse().forEach(b => {
         $("#motoren .select_header").after(
                 "<div onclick=\"prepTable('" + b.bezeichnung + "', 'benzin')\" class='option'>" + b.bezeichnung + "&nbsp" + b.full.opower + "&nbsp&nbsp Benziner</div>")
     })
+    if(curMotors.benzin.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Benziner</div>");
     curMotors.diesel.reverse().forEach(d => {
         $("#motoren .select_header").after(
                 "<div onclick=\"prepTable('" + d.bezeichnung + "', 'diesel')\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
     })
+    if(curMotors.diesel.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Diesel</div>");
     document.querySelector("#motoren").style.display = "block";
     document.querySelector("#motoren").scrollIntoView();
 
@@ -138,7 +144,9 @@ function fillBuildYears(modelName) {
     document.querySelectorAll("#baujahre .option").forEach(e => {
         $(e).remove();
     })
-
+    document.querySelectorAll("#motoren .engine_seperator").forEach(e => {
+        $(e).remove();
+    })
     curModel.baujahre.reverse().forEach(x => {
         $("#baujahre .select_header").after(
                 "<div onclick=\"fillMotors('" + x.jahr + "')\" class='option'>" + x.jahr + "</div>")
