@@ -40,7 +40,7 @@ function initSelection() {
 
 var tableData = null;
 
-function prepTable(selMotor, type, elem) {
+function prepTable(selMotor, selPower, type, elem) {
     let prev = document.querySelector("#motoren .option.selected");
     if(prev) prev.classList.remove("selected")
     elem.classList.add("selected");
@@ -48,7 +48,8 @@ function prepTable(selMotor, type, elem) {
     let data = curMotors[type];
     let motor = null;
     for (let i = 0; i < data.length; i++) {
-        if (data[i].bezeichnung === selMotor) {
+        if (data[i].bezeichnung === selMotor &&
+            data[i].full.opower == selPower) {
             motor = data[i];
             break;
         }
@@ -141,7 +142,7 @@ function fillMotors(BY, elem) {
     
     curMotors.diesel.reverse().forEach(d => {
         $("#motoren .select_header").after(
-                "<div onclick=\"prepTable('" + d.bezeichnung + "', 'diesel', this)\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
+                "<div onclick=\"prepTable('" + d.bezeichnung + "','"+d.full.opower+"', 'diesel', this)\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
     })
     if(curMotors.diesel.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Diesel</div>");
 
@@ -149,7 +150,7 @@ function fillMotors(BY, elem) {
     
     curMotors.benzin.reverse().forEach(b => {
         $("#motoren .select_header").after(
-                "<div onclick=\"prepTable('" + b.bezeichnung + "', 'benzin', this)\" class='option'>" + b.bezeichnung + "&nbsp" + b.full.opower + "&nbsp&nbsp Benziner</div>")
+                "<div onclick=\"prepTable('" + b.bezeichnung + "','"+b.full.opower+"', 'benzin', this)\" class='option'>" + b.bezeichnung + "&nbsp" + b.full.opower + "&nbsp&nbsp Benziner</div>")
     })
     if(curMotors.benzin.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Benziner</div>");
     document.querySelector("#motoren").style.display = "block";
