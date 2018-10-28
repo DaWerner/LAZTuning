@@ -14,6 +14,11 @@ div#about>div {
     margin-left: 0px;
 }
 
+#select div.option.selected{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 #brandLogo>img{
     max-width: 300px;
     max-height: 150px;

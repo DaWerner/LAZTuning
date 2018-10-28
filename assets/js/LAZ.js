@@ -7,6 +7,20 @@ function setBrandHover(){
     })
 }
 
+function addImage(){
+    let file = "./assets/img/models/" + curModel.name + ".jpg";
+    $.ajax({
+        url: file,
+        success: function (data) {
+            document.querySelector(".modelImg>img").src = file;
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            document.querySelector(".modelImg>img").src = "./assets/img/models/placeholderCar.png"
+        }
+
+    })
+
+}
 
 function initSelection() {
     setBG();
@@ -26,7 +40,11 @@ function initSelection() {
 
 var tableData = null;
 
-function prepTable(selMotor, type) {
+function prepTable(selMotor, type, elem) {
+    let prev = document.querySelector("#motoren .option.selected");
+    if(prev) prev.classList.remove("selected")
+    elem.classList.add("selected");
+
     let data = curMotors[type];
     let motor = null;
     for (let i = 0; i < data.length; i++) {
@@ -52,7 +70,8 @@ function prepTable(selMotor, type) {
     document.querySelector("#resultsRet").classList.add("active");
 
     document.querySelector("#s1").classList.add("active")
-    document.querySelector(".modelImg>img").src = "./assets/img/models/" + curModel.name + ".jpg"
+    addImage();
+
 }
 
 function fillTable(set, ele) {
@@ -101,7 +120,12 @@ function fillEco(elem) {
 
 var curMotors = null;
 
-function fillMotors(BY) {
+function fillMotors(BY, elem) {
+    let prev = document.querySelector("#baujahre .option.selected");
+    if(prev) prev.classList.remove("selected");
+    elem.classList.add("selected");
+
+    
     for (let i = 0; i < curModel.baujahre.length; i++) {
         if (curModel.baujahre[i].jahr === BY) {
             curMotors = curModel.baujahre[i].motoren
@@ -114,24 +138,32 @@ function fillMotors(BY) {
     document.querySelectorAll("#motoren .engine_seperator").forEach(e => {
         $(e).remove();
     })
-    curMotors.benzin.reverse().forEach(b => {
-        $("#motoren .select_header").after(
-                "<div onclick=\"prepTable('" + b.bezeichnung + "', 'benzin')\" class='option'>" + b.bezeichnung + "&nbsp" + b.full.opower + "&nbsp&nbsp Benziner</div>")
-    })
-    if(curMotors.benzin.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Benziner</div>");
+    
     curMotors.diesel.reverse().forEach(d => {
         $("#motoren .select_header").after(
-                "<div onclick=\"prepTable('" + d.bezeichnung + "', 'diesel')\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
+                "<div onclick=\"prepTable('" + d.bezeichnung + "', 'diesel', this)\" class='option'>" + d.bezeichnung + "&nbsp" + d.full.opower + "&nbsp&nbsp Diesel</div>")
     })
     if(curMotors.diesel.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Diesel</div>");
+
+    
+    
+    curMotors.benzin.reverse().forEach(b => {
+        $("#motoren .select_header").after(
+                "<div onclick=\"prepTable('" + b.bezeichnung + "', 'benzin', this)\" class='option'>" + b.bezeichnung + "&nbsp" + b.full.opower + "&nbsp&nbsp Benziner</div>")
+    })
+    if(curMotors.benzin.length>0)$("#motoren .select_header").after("<div class='engine_seperator'>Benziner</div>");
     document.querySelector("#motoren").style.display = "block";
+    if($(window).width() > 1036) return;
     document.querySelector("#motoren").scrollIntoView();
 
 }
 
 var curModel = null;
 
-function fillBuildYears(modelName) {
+function fillBuildYears(modelName, elem) {
+    let prev = document.querySelector("#models .option.selected");
+    if(prev) prev.classList.remove("selected")
+    elem.classList.add("selected");
     for (let i = 0; i < curBrand.models.length; i++) {
         if (curBrand.models[i].name === modelName) {
             curModel = curBrand.models[i];
@@ -149,9 +181,11 @@ function fillBuildYears(modelName) {
     })
     curModel.baujahre.reverse().forEach(x => {
         $("#baujahre .select_header").after(
-                "<div onclick=\"fillMotors('" + x.jahr + "')\" class='option'>" + x.jahr + "</div>")
+                "<div onclick=\"fillMotors('" + x.jahr + "', this)\" class='option'>" + x.jahr + "</div>")
     })
     document.querySelector("#baujahre").style.display = "block";
+        if($(window).width() > 1036) return;
+
     document.querySelector("#baujahre").scrollIntoView();
 
 
@@ -186,8 +220,9 @@ function fillModels() {
 
     models.reverse().forEach(x => {
         $("#models .select_header").after(
-                "<div onclick=\"fillBuildYears('" + x.name + "')\" class='option'>" + x.name + "</div>");
+                "<div onclick=\"fillBuildYears('" + x.name + "', this)\" class='option'>" + x.name + "</div>");
     })
+    if($(window).width() > 1036) return;
 
     document.querySelector("#models").scrollIntoView();
 }
